@@ -239,7 +239,7 @@ app.get('/api/transactions', function (request, response, next) {
         added = added.concat(data.added);
         modified = modified.concat(data.modified);
         removed = removed.concat(data.removed);
-        hasMore = data.has_more;
+        hasMore = data.has_more;x
         // Update cursor to the next cursor
         cursor = data.next_cursor;
         prettyPrintResponse(response);
